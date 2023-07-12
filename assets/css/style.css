@@ -402,7 +402,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(0, 0%, 100%, 0.05);
+  background: hsl(0deg 0% 0% / 79%);
   backdrop-filter: blur(10px);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
@@ -419,7 +419,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: 16px;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -670,7 +670,7 @@ main {
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
 .select-list {
-  background: var(--black-2);
+  background: #3c1818;
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
@@ -691,7 +691,6 @@ main {
 }
 
 .select-item button {
-  background: var(--black-2);
   color: var(--light-gray);
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
