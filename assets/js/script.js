@@ -57,6 +57,8 @@ const filterFunc = function () {
       item.classList.remove("active");
     }
   }
+  
+  select.classList.remove("active"); // Remove the "active" class from filter-select
 };
 
 
